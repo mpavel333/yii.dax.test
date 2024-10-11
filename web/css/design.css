@@ -1,0 +1,903 @@
+
+body {
+	background: #F4F5F0 !important;
+}
+
+.content {
+	margin-left: 240px !important;
+}
+
+.sidebar {
+	width: 240px !important;
+	background: #fff !important;
+}
+
+.nav > li {
+	padding: 2px 11px;
+}
+
+
+.nav > li.active > a {
+	color: #fff !important;
+	background: #4F600E !important;
+	border: none !important;
+}
+
+.nav > li a span {
+    margin-left: 4px;
+}
+
+
+.nav > li svg {
+    margin-top: -1px;
+    top: -33px;
+    margin-bottom: -4px;
+}
+
+.nav > li.active svg > path {
+	stroke: #fff !important;
+}
+
+.nav > li svg > path {
+	stroke: #6E6B7B !important;
+}
+
+
+.nav > li > a, .nav > li > a:focus {
+	font-size: 13px !important;
+	color: #6E6B7B !important;
+	padding: 9px 12px !important;
+	border: none !important;
+	border-radius: 5px !important;
+}
+
+body .nav > li > a:hover {
+	background: #ddd !important;
+}
+
+.nav > li > svg {
+	font-size: 13px !important;
+	margin-left: 7px !important;
+}
+
+.nav li svg {
+	height: 17px !important;
+}
+
+.nav {
+	margin-top: 10px !important;
+}
+
+.nav > li > a:hover {
+	background: #fff !important;
+}
+
+.sidebar .sub-menu {
+    padding: 10px 0 10px 30px;
+    margin: 0;
+    background: #F4F5F0 !important;
+    position: relative;
+    display: none;
+}
+
+.sidebar .sub-menu:before {
+    content: unset !important;
+}
+
+.sidebar .sub-menu>li>a {
+    padding: 5px 9px !important;
+    display: block;
+    font-weight: 500 !important;
+    color: #6E6B7B !important;
+    text-decoration: none;
+    position: relative;
+}
+
+.sidebar .sub-menu>li.active>a, .sidebar .sub-menu>li>a:hover {
+    color: #4F600E !important;
+}
+
+.sidebar .sub-menu>li>a:before {
+    font-size: 10px !important;
+	margin-top: -7px !important;
+    margin-left: -11px !important;
+}
+
+
+.card {
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #D8D6DE;
+	margin-bottom: 10px;
+}
+
+.card .card-header {
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #D8D6DE;
+}
+
+.card .card-body .card-title {
+	margin-top: 0;
+	color: #6E6B7B;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.card ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.card ul li {
+	margin-bottom: 8px;
+}
+
+.card ul li .item-title {
+	color: #4F600E;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.card ul li .item-value {
+	color: #6E6B7B;
+	font-size: 14px;
+}
+
+.card-buttons {
+	display: inline-block;
+    float: right;
+    margin-top: -5px;
+}
+
+.card-buttons a {
+	background: #F4F5F0 !important;
+	border: none;
+}
+
+
+.card-shadow {
+	border: none;
+	box-shadow: 0px 5px 25px 0px rgba(22, 29, 49, 0.1);
+}
+
+.card .form-group label {
+	color: #6E6B7B;
+	font-size: 13px;
+    font-weight: 400;
+}
+
+.card .form-group .form-control {
+	background: #F4F5F0;
+	color: #6E6B7B;
+	font-weight: 400;
+	border: 1px solid #D8D6DE;
+}
+
+.card .form-group .form-control::placeholder {
+	color: #BABFC7;
+	font-weight: 400;
+}
+
+.card hr {
+	height: 1px;
+	width: 100%;
+	background: #D8D6DE;
+}
+
+.card .card-list::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #FFF;
+}
+
+.card .card-list::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #FFF;
+}
+
+.card .card-list::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #F4F5F0;
+}
+
+.btn-white {
+	border-radius: 5px !important;
+	border: 1px solid #D8D6DE !important;
+	color: #6E6B7B !important;
+	font-weight: 500 !important;
+}
+
+.btn-primary {
+	border-radius: 5px !important;
+	border: 1px solid #3C85F4 !important;
+	background: #3C85F4 !important;
+}
+
+.btn-success {
+	border-radius: 5px !important;
+	border: 1px solid #28C76F !important;
+	background: #28C76F !important;
+}
+
+.btn-warning {
+	border-radius: 5px !important;
+	border: 1px solid #FF7518 !important;
+	background: #FF7518 !important;
+}
+
+.btn-white {
+	background: #F4F5F0 !important;
+	color: #6E6B7B !important;
+	border: 1px solid #F4F5F0 !important;
+}
+
+body .pagination>.active>a, body .pagination>.active>a:hover {
+	background: #4F600E !important;
+	border: 1px solid #4c5c0e !important;
+}
+
+.label-accent {
+	color: #fff;
+	background: #4F600E;
+}
+
+.card.card-columns {
+	padding: 0;
+	/*height: 500px;*/
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.card.card-columns .card-column {
+	/*display: inline-block;*/
+	/*display: table-cell;*/
+	/*height: 100%;*/
+	vertical-align: top;
+	padding: 10px;
+	border-right: 1px solid #D8D6DE !important;
+	font-size: 13px;
+	font-weight: 600;
+	color: #6E6B7B;
+
+	flex-grow: 1;
+	width: 115px;
+}
+
+.card.card-columns .card-column:nth-child(1) {
+	width: 190px;
+}
+.card.card-columns .card-column:nth-child(2) {
+	width: 180px;
+}
+.card.card-columns .card-column:nth-child(3) {
+	width: 200px;
+}
+.card.card-columns .card-column:nth-child(4) {
+	width: 193px;
+}
+
+.card.card-columns .card-column:nth-child(5) {
+	width: 191px;
+}
+
+/*
+.card.card-columns .card-column:first-child {
+	//width: 15%;
+}
+*/
+.card.card-columns .card-column:nth-child(7) {
+	width: 140px;
+}
+.card.card-columns .card-column:nth-child(8) {
+	border-right: none !important;
+	min-width: 170px;
+}
+
+.card-column-email .column-title{
+	min-height: 30px;
+}
+
+
+.card.card-columns .card-column .column-title {
+	display: block;
+	font-size: 10px;
+}
+
+.card.card-columns .card-column .column-title.mh-30px {
+	min-height: 30px;
+}
+
+.card.card-columns .card-column hr {
+	margin: 8px 0;
+	color: #D8D6DE;
+}
+
+.card.card-columns .card-column .column-header {
+	display: block;
+	font-size: 14px;
+
+	text-transform: uppercase;
+	color: #4F600E !important;
+}
+
+.btn.btn-outline-secondary {
+	color: #6E6B7B;
+	background-color: transparent;
+	background-image: none;
+	border-color: #D8D6DE;
+  }
+
+.btn-outline-secondary:hover {
+	color: #D8D6DE;
+}
+
+.panel-heading.user-profile{
+	color: #fff !important;
+  	background: #4F600E !important;
+	border-radius: 5px !important;
+}
+
+#crud-datatable-flight-pjax .card-box-column-3:nth-child(2){
+	text-align: center;
+}
+
+#crud-datatable-flight-pjax .card-box-column-3:nth-child(3){
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.card-box-column span{
+	word-break: break-all;
+}
+
+.navbar-brand{
+	padding: 19px 0;
+}
+
+#page-container {
+    padding-top: 70px;
+}
+
+.navbar-title{
+	float: left;
+	padding: 19px 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navbar-title span{
+	position: relative;
+	top: 4px;
+	left: 10px;
+}
+
+.sidebar.sidebar-grid{
+	padding-top: 70px;
+}
+
+.navbar-header .navbar-brand{
+	padding: 18px 30px;
+	height: 70px;
+}
+
+.navbar-header .navbar-brand span{
+	position: relative;
+	top: 2px;
+	left: 10px;
+}
+
+.card-box{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-box-column{
+	flex-grow: 1;
+}
+
+.card-box-column-3{
+	align-self: center;
+
+}
+
+.padding-0-5{
+	padding: 0 7px;
+}
+
+.card-box-row{
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.card-box-row .column-title{
+	padding-right: 10px;
+	position: relative;
+	top: 1px;
+}
+
+.card-box-row-2{
+	margin-bottom: 5px;
+	display: flex;
+}
+
+.card-box-row-2 span{
+	flex-grow: 2;
+}
+
+.card-box-row-2 span.date{
+	font-size: 12px; 
+	margin-top: 0;
+	text-align: right;
+}
+
+.card-box-row-2 span.date i{
+	position: relative;
+	top: 4px;
+}
+
+.card-box-2{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-box-2 > div{
+	flex-grow: 1;
+}
+
+.pr-10{
+	padding-right: 10px;
+}
+
+.flex-grow-2{
+	flex-grow: 2;
+}
+
+.salary-label{
+	padding-right: 3px;
+}
+
+.c-green{
+	background-color: #a5efef;
+}
+
+.form-control.we_prepayment{
+
+}
+
+.form-control.payment_out_prepayment{
+	
+}
+
+.form-control.show-prompt{
+	background-color: transparent;
+	
+}
+
+
+.fs14b{
+	font-size: 14px;
+	font-weight: 600;
+	align-self: center;
+	padding: 0 8px;
+}
+
+.form-control.we {
+	
+}
+
+.form-control.payment_out{
+	
+}
+
+.is_payed,.is_driver_payed{
+	position: relative;
+	left: 5px;
+	bottom: 3px;
+}
+
+
+.pb10{
+	padding-bottom: 10px;
+}
+
+.pr5{
+	padding-right: 5px;
+}
+
+.asc{
+	align-self: center;
+}
+
+.mr10{
+	margin-right: 10px;
+}
+
+#car-status {
+	max-width: 143px;
+  }
+
+#car-mileage {
+	max-width: 143px;
+  }
+
+.flex-box{
+	display: flex;
+}
+
+.space-between{
+	justify-content: space-between;
+}
+
+.driver .select2.select2-container .select2-selection--single .select2-selection__rendered{
+	padding-left: 0 !important;
+}
+
+.num-orders{
+	background: url('../img/red-shield.png') no-repeat center center;
+    background-size: auto;
+	width: 28px;
+	min-height: 30px;
+	text-align: center;
+	display: inline-block;
+	background-size: 127% 110%;
+	line-height: 2.3;
+	color: white;
+}
+
+
+.num-shipment{
+	background: url('../img/red-shield.png') no-repeat center center;
+    background-size: auto;
+	width: 28px;
+	min-height: 30px;
+	text-align: center;
+	display: inline-block;
+	background-size: 127% 110%;
+	line-height: 2.3;
+	color: white;
+}
+
+.num-shipment.color-green{
+	background: url('../img/green-shield.png') no-repeat center center;
+	background-size: auto;
+	width: 28px;
+	min-height: 30px;
+	text-align: center;
+	display: inline-block;
+	background-size: 127% 110%;
+	line-height: 2.3;
+	color: white;
+}
+
+.num-shipment.color-purple{
+	background: url('../img/purple-shield.png') no-repeat center center;
+	background-size: auto;
+	width: 28px;
+	min-height: 30px;
+	text-align: center;
+	display: inline-block;
+	background-size: 127% 110%;
+	line-height: 2.3;
+	color: white;
+}
+
+.num-shipment.color-yellow{
+	background: url('../img/yellow-shield.png') no-repeat center center;
+	background-size: auto;
+	width: 28px;
+	min-height: 30px;
+	text-align: center;
+	display: inline-block;
+	background-size: 127% 110%;
+	line-height: 2.3;
+	color: white;
+}
+
+
+
+
+/*
+#items-list tr{
+	display: flex;
+	justify-content: start;
+
+}
+
+#items-list tr th,
+#items-list tr td{
+	padding: 7px 5px;
+}
+
+#items-list .list-cell__id{
+	width: 10px;
+}
+
+#items-list .list-cell__name{
+	width: 134px;
+}
+
+#items-list .list-cell__date{
+	width: 128px;
+}
+
+#items-list .list-cell__mileage{
+	width: 98px;
+}
+
+#items-list .list-cell__info{
+	width: 159px;
+}
+
+#items-list .list-cell__response_user{
+	width: 104px;
+}
+
+#items-list .list-cell__driver_id{
+	width: 126px;
+}
+
+#items-list .list-cell__button{
+	width: 50px;
+}
+*/
+
+.is_payed,
+.is_driver_payed{
+	width: 20px;
+	height: 20px;
+}
+
+.mh-24px {
+	min-height: 24px;
+}
+
+.mh-32px {
+	min-height: 32px;
+  }
+
+.mr-6px {
+	margin-right: 6px;
+}
+
+/**************/
+
+.container_checkbox {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container_checkbox input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .container_checkbox .checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 28px;
+	width: 28px;
+	
+	background: url(../img/checkbox.png);
+	background-position: 0 -59px;
+	
+
+}
+  
+  /* On mouse-over, add a grey background color */
+  .container_checkbox:hover input ~ .checkmark {
+	background-position: 0 -30px;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container_checkbox input:checked ~ .checkmark {
+	background-position: 0 0;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .container_checkbox:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container_checkbox input:checked ~ .checkmark:after {
+	display: block;
+  }
+  
+  /* Style the checkmark/indicator 
+  .container_checkbox .checkmark:after {
+	content: "";
+	position: relative;
+	left: 6px;
+	top: 3px;
+	display: block;
+	width: 10px;
+	height: 16px;
+	//border: solid white;
+	//border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(35deg);
+	-ms-transform: rotate(35deg);
+	transform: rotate(35deg);
+  }
+  */
+
+/***************/
+
+.jc-end{
+	justify-content: flex-end;
+}
+
+.jc-sb{
+	justify-content: space-between;
+}
+
+.recoil{
+	margin: 0 10px;
+}
+
+.salary{
+	margin: 0 10px;	
+}
+
+/*
+.pr_header > div{
+	border: 1px solid black;
+	padding: 5px;
+
+}
+
+.pr_body_row > div{
+	border: 1px solid black;
+	padding: 5px;
+
+}
+
+.pr_header > div:nth-child(1) {
+	width: 100px;
+}
+.pr_header > div:nth-child(2) {
+	width: 100px;
+}
+.pr_header > div:nth-child(3) {
+	width: 100px;
+}
+.pr_header > div:nth-child(4) {
+	width: 100px;
+}
+.pr_header > div:nth-child(5) {
+	width: 100px;
+}
+.pr_header > div:nth-child(6) {
+	width: 100px;
+}
+.pr_header > div:nth-child(7) {
+	width: 100px;
+}
+.pr_header > div:nth-child(8) {
+	width: 100px;
+}
+.pr_header > div:nth-child(9) {
+	width: 100px;
+}
+.pr_header > div:nth-child(10) {
+	width: 100px;
+}
+.pr_header > div:nth-child(11) {
+	width: 100px;
+}
+.pr_header > div:nth-child(12) {
+	width: 100px;
+}
+.pr_header > div:nth-child(13) {
+	width: 100px;
+}
+.pr_header > div:nth-child(14) {
+	width: 100px;
+}
+.pr_header > div:nth-child(15) {
+	width: 100px;
+}
+.pr_header > div:nth-child(15) {
+	width: 100px;
+}
+*/
+
+.planreport_wrap .table{
+	
+}
+
+.titleAttribute{
+	display: flex;
+	justify-content: space-between;
+}
+
+.label.label-accent{
+	font-size: 12px;
+	padding: .3em .6em .3em;
+	margin-top: 5px;
+	position: relative;
+	top: 2px;
+}
+
+#crud-datatable-structure-pjax + div .modal-dialog,
+#crud-datatable-structure-pjax + div .modal-content{
+	width: 1000px;
+}
+
+.is_salary_payed_datetime{
+	margin-left: auto;
+}
+
+.is_recoil_payment_date{
+	margin-left: auto;
+}
+
+.we_prepayment_form{
+	//margin-left: auto;
+}
+
+.payment_out_prepayment_form{
+	//margin-left: auto;
+}
+
+#crud-datatable-client-pjax input.tabel{
+    width: 100px;
+}
+
+.payed.yellow{
+    background-color: #FF7518;
+}
+
+.payed.red{
+    background-color: #ff5b57;
+}
+
+.payed.green{
+    background-color: #28C76F;
+}
+
+.box-salary{
+    margin-left: auto;
+    display: none;
+}
+.box-salary.active{
+    display: block;
+}
+
+#crud-datatable-client-pjax .card-header{
+    display: flex;
+}
+
+#crud-datatable-client-pjax .card-buttons{
+    margin-left: auto;
+    padding-left: 10px;
+}

@@ -1,0 +1,89 @@
+{
+    "name": "yiisoft/yii2-app-basic",
+    "description": "Yii 2 Basic Project Template",
+    "keywords": ["yii2", "framework", "basic", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "bin-dir": "bin",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0",
+        "yiisoft/yii2": "~2.0.5",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+        "kartik-v/yii2-sortable": "^1.2",
+        "kartik-v/yii2-widget-colorinput": "^1.0",
+        "kartik-v/yii2-widget-datetimepicker": "^1.4",
+        "perminder-klair/yii2-dropzone": "^1.0",
+        "kartik-v/yii2-widget-typeahead": "^1.0",
+        "kartik-v/yii2-grid": "dev-master",
+        "sendgrid/sendgrid": "^7.3",
+        "johnitvn/yii2-ajaxcrud": "^2.1",
+        "kartik-v/yii2-widget-select2": "^2.1",
+        "mihaildev/yii2-ckeditor": "^1.0",
+        "kartik-v/yii2-widget-datepicker": "^1.4",
+        "unclead/yii2-multiple-input": "^2.22",
+        "phpnt/yii2-chartjs": "^0.0.2",
+        "mrserg161/yii2-airdatepicker": "*",
+        "kartik-v/yii2-dynagrid": "^1.5",
+        "gevman/yii2-excel-import": "^1.0",
+        "uranum/yii2-excel-exchange": "^1.1",
+        "kartik-v/yii2-date-range": "^1.7",
+        "dompdf/dompdf": "~0.7",
+        "demi/backup": "~1.0",
+        "andre_487/php_rutils": "^1.2",
+        "spipu/html2pdf": "^5.2",
+        "kartik-v/yii2-mpdf": "1.0.0",
+        "jonnyw/php-phantomjs": "4.*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1",
+        "codeception/specify": "~0.4.3"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "yii\\composer\\Installer::postCreateProject"
+        ],
+        "post-install-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ],
+        "post-update-cmd": [
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ]
+    },
+    "extra": {
+        "yii\\composer\\Installer::postCreateProject": {
+            "setPermission": [
+                {
+                    "runtime": "0777",
+                    "web/assets": "0777",
+                    "yii": "0755"
+                }
+            ],
+            "generateCookieValidationKey": [
+                "config/web.php"
+            ]
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
